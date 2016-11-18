@@ -1,8 +1,6 @@
 package lect2_1.task3;
 
 import javax.xml.bind.annotation.*;
-import javax.xml.bind.annotation.adapters.NormalizedStringAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 /**
  * Created by Illya on 18.11.2016.
