@@ -10,11 +10,11 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 @XmlRootElement(name = "query")
 public class Query {
-    @XmlAttribute(name = "yahoo:count")
+    @XmlAttribute(name = "count")
     private String count;
-    @XmlAttribute(name = "yahoo:created")
+    @XmlAttribute(name = "created")
     private String created;
-    @XmlAttribute(name = "yahoo:lang")
+    @XmlAttribute(name = "lang")
     private String lang;
     @XmlElement(name = "results")
     private Results results;
